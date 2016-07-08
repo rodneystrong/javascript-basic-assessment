@@ -75,15 +75,18 @@ var primaryColors = ['red','orange','yellow','green','blue','indigo','violet'];
 //#8 Using this array do the following
 var heroes = ['superman', 'batman', 'flash'];
 //add 'wonderwoman' to the end
-
+heroes.push('wonderwoman');
 //remove 'superman' and store him in a var called firstHero
+var firstHero = heroes.shift('superman');
 
 //add 'spongebob' to the start of the array
+heroes.unshift('spongebob');
 
 //remove 'flash' from the array and store him in a var called secondHero
+var secondHero = heroes.splice(2,1);
 
 //leave batman in the array but put a copy of him on a var called thirdHero
-
+var thirdHero = heroes[1];
 
 
 
