@@ -3,7 +3,10 @@ var hello = "goodbye";
 
 
 //#2 Use iLove to create a new var called iLoveCode that says "I love code"
-var iLove = "I love"
+var iLove = iLoveCode;
+
+var iLoveCode = "I love code";
+
 
 //#3  Make an object called bob
 // bob has a height of 6ft (string)
