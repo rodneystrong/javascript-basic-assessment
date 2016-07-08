@@ -98,7 +98,17 @@ function addItem(arr, item) {
 //#10 Write a function called removeItem, that takes in an array of strings, and a string.
 // Removes all instances of that string from the array. And return the modified array.
 // The order of the array should not be changed
-
+function removeItem(stringArr, str) {
+  //loop through the array to find the index of that string
+  //remove that index item
+  for(i = stringArr.length; i--;) {
+    if(stringArr[i] === str) {
+      stringArr.splice(i,1);
+    }
+  }
+  console.log(stringArr);
+  return stringArr;
+}
 
 //#11 Write a function doubleTheFun that takes 1 parameter it doubles numbers, and
 // repeats strings example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
