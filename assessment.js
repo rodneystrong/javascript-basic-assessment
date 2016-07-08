@@ -141,6 +141,15 @@ function doubleTheFun(dblIt) {
 
 //#12 Write function getValueOfProperty that takes in an object, and the name of a property on the object
 // return the value from the object that corresponds to the property
+function getValueOfProperty(obj, objProp) {
+
+    if(obj.hasOwnProperty(objProp)) {
+      var val = obj[objProp];
+      console.log(val);
+      return val;
+    }
+
+}
 
 //#13 Write a function called makeChatMessage that takes in a message and author parameter
 // and returns an object with a message, author, and timestamp, that is
