@@ -54,6 +54,7 @@ var zoo = {
 };
 
 //#6 Loop through this object and change all properties that start with the letter s to have a value of 's'
+//if var prop in snake (charAt(0) === 's')
 var snake = {
   sliters: 'sideways',
   eats: 'rodents',
@@ -62,6 +63,11 @@ var snake = {
   runs: 'legless'
 };
 
+for(var prop in snake) {
+  if(prop.charAt(0)=== 's') {
+    snake[prop] = 's';
+  }
+}
 
 //#7 Create an array of strings that are the 6 primary colors (lower-case). Call your array primaryColors
 
