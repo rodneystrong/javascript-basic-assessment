@@ -15,6 +15,17 @@ var iLoveCode = "I love code";
 // bob is not presidentOfTheUnitedStates (boolean)
 // bob likes apples, bananas, and cherries (array of strings)
 
+var bob = {
+  height: "6ft",
+  age: 24,
+  hair: {
+    style: "spikey",
+    color: "brown"
+  },
+  presidentOfTheUnitedStates: false,
+  likes: ['apples', 'bananas', 'cherries']
+};
+
 
 //#4 Change my shirt color to pink using dot notation
 var myShirt = {
