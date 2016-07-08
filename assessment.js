@@ -31,13 +31,17 @@ var bob = {
 var myShirt = {
   type: "polo",
   color: "red"
-}
+};
+
+myShirt.color = "pink";
 
 // Change my shirt type to spandex using square bracket notation
 var myOtherShirt = {
   type: "polo",
   color: "red"
-}
+};
+
+myOtherShirt['type'] = "spandex";
 
 //#5 Create an object that tracks a count of animals in a zoo.  Call it 'zoo'
 // The key should be the animal name(string) and the value should be how many there are.
@@ -52,7 +56,7 @@ var snake = {
   says: 'ssss',
   smells: 'heat',
   runs: 'legless'
-}
+};
 
 
 //#7 Create an array of strings that are the 6 primary colors (lower-case). Call your array primaryColors
