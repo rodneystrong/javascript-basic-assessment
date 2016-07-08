@@ -112,7 +112,32 @@ function removeItem(stringArr, str) {
 
 //#11 Write a function doubleTheFun that takes 1 parameter it doubles numbers, and
 // repeats strings example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
+function doubleTheFun(dblIt) {
+  //if typeof === num -> double
+  //if typeof === str -> concat itself str+=str
 
+  if(typeof dblIt === 'number') {
+    dblIt = dblIt * 2;
+    console.log(dblIt);
+    return dblIt;
+  }
+  if(typeof dblIt === 'string') {
+    //convert number str to number
+    var parsed = parseFloat(dblIt);
+
+    if(isNaN(parsed)) {
+      dblIt += dblIt;
+      console.log(dblIt);
+      return dblIt;
+    }
+    else if(parsed){
+      parsed = parsed * 2;
+      console.log(parsed);
+      return parsed;
+    }
+
+  }
+}
 
 //#12 Write function getValueOfProperty that takes in an object, and the name of a property on the object
 // return the value from the object that corresponds to the property
