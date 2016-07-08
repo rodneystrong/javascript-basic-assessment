@@ -88,11 +88,12 @@ var secondHero = heroes.splice(2,1);
 //leave batman in the array but put a copy of him on a var called thirdHero
 var thirdHero = heroes[1];
 
-
-
 //#9 Write a function called addItem, that takes in an array, and adds the item to
 // the array.
-
+function addItem(arr, item) {
+  arr.push(item);
+  return arr;
+}
 
 //#10 Write a function called removeItem, that takes in an array of strings, and a string.
 // Removes all instances of that string from the array. And return the modified array.
