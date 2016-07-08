@@ -148,7 +148,6 @@ function getValueOfProperty(obj, objProp) {
       console.log(val);
       return val;
     }
-
 }
 
 //#13 Write a function called makeChatMessage that takes in a message and author parameter
