@@ -1,5 +1,5 @@
 //#1 Create a var called hello that says goodbye
-
+var hello = "goodbye";
 
 
 //#2 Use iLove to create a new var called iLoveCode that says "I love code"
@@ -56,11 +56,11 @@ var heroes = ['superman', 'batman', 'flash'];
 //leave batman in the array but put a copy of him on a var called thirdHero
 
 
- 
+
 
 //#9 Write a function called addItem, that takes in an array, and adds the item to
 // the array.
- 
+
 
 //#10 Write a function called removeItem, that takes in an array of strings, and a string.
 // Removes all instances of that string from the array. And return the modified array.
@@ -78,7 +78,7 @@ var heroes = ['superman', 'batman', 'flash'];
 // and returns an object with a message, author, and timestamp, that is
 // the current time as a Date object
 
-//#14 Create a function called coderTest that takes in an object that is a person, it looks to see if the person’s name is Jeremy and changes the person object to have a property called lovesCode with a value of 10.  If their name is Brack set lovesCode to 0.  otherwise set lovesCode to 5. 
+//#14 Create a function called coderTest that takes in an object that is a person, it looks to see if the person’s name is Jeremy and changes the person object to have a property called lovesCode with a value of 10.  If their name is Brack set lovesCode to 0.  otherwise set lovesCode to 5.
 
 //#15 Create a function called outside that takes in a temperature (number), a humidity(number), and a cloudiness(number), in that order. Using the following to return the correct values
 /*
@@ -86,7 +86,7 @@ var heroes = ['superman', 'batman', 'flash'];
     temperature under 40 and cloudiness over 60 - return "I have icecicles"
     temperature over 80 and humidity under 40 and cloudiness under 20 - return "I'm literally in the desert"
     temperature over 80 or humidity over 50 or cloudiness over 50 - return "Hmm, probably not"
-    Otherwise - return "I love outside" 
+    Otherwise - return "I love outside"
 */
 
 //#16 Create a function called callerBack that takes in a function (holla) and a string parameter(back) and invokes it(holla) with the string(back) + ' back'.
